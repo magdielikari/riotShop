@@ -1,0 +1,14 @@
+body {
+  background-color: #FFF;
+  color: #80827F;
+}
+
+/* Larger than phablet */
+@media (max-width: 768px) {
+  .product {
+    margin-bottom: 2rem;
+  }
+  .navbar__cart {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart Shopping with Riot.js and riotux</title>
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+    <!--<script src="https://use.fontawesome.com/167e2bab10.js"></script>-->
+  <!-- riot.js and riotux -->
+  <script src="/vendor/riot.min.js"></script>
+  <script src="/vendor/riotux.min.js"></script>
+</head>
+<body>
+  <div id="app" class="u-full-width">
+    <Cart></Cart>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="/riotux/store.js"></script>
+  <script src="/riotux/actions.js"></script>
+  <script src="/assets/js/app.js"></script>
+  
+  <!-- Mount -->
+  <script>
+    riot.mount('div#app', '*');
+  </script>
+</body>
+</html>
